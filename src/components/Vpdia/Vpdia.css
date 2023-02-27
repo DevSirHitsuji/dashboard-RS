@@ -1,0 +1,64 @@
+.main-vpdia {
+    background-color: rgb(48, 43, 73);
+    box-shadow: 0px 0px 2px 5px rgba(0, 0, 0, 0.075);
+    width: 880px;
+    height: 300px;
+    color: aliceblue;
+    margin-inline: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status {
+    height: 100%;
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.status div {
+    display: flex;
+    align-items: center;
+}
+
+.result {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.graphics {
+    display: flex;
+    justify-content: space-around;
+
+    width: 60%;
+    height: 80%;
+    align-items: end;
+}
+
+.graphics div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meta {
+    background-color: rgba(161, 161, 161, 0.288);
+    width: 500px;
+    height: 3px;
+
+    position: absolute;
+    margin-bottom: 100px;
+}
+
+.pilar {
+    background: linear-gradient(rgb(125, 255, 223), rgb(108, 255, 206), rgb(52, 156, 122));
+    width: 10px;
+    border-radius: 20px;
+    z-index: 0;
+}
